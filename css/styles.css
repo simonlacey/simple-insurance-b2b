@@ -131,6 +131,8 @@ p.work-with-simple-sub-header {
     border-top: 4px solid #1e96cf;
 }
 
+/* ------ navbar shadow ------ */
+
 #custom-navbar {
     -webkit-box-shadow: 0px 1px 1px 0px rgba(36,73,87,0.4);
     -moz-box-shadow: 0px 1px 1px 0px rgba(36,73,87,0.4);
@@ -144,6 +146,7 @@ ul.navbar-nav {
 
 .navbar-nav a {
     margin-top: 15px;
+    color: #1e96cf;
 }
 
 .navbar-form {
@@ -216,7 +219,7 @@ img.advantages-imgs {
 }
 
 .resources {
-    background-color: #39743e;
+    background-color: #204d74;
     color: #fff;
     padding: 20px;
 }
