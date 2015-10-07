@@ -131,8 +131,31 @@ p.work-with-simple-sub-header {
     font-weight: 300;
 }
 
+a {
+   text-decoration: underline;
+}
+
 /* ------ Layout ------ */
 
+.hero-btn {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #3cc85b;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+}
+
+.cta-btn {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fda738;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+}
 
 
 /* ------ jumbotron ------ */
@@ -326,9 +349,10 @@ img.advantages-imgs {
 }
 
 .copyright {
-    font-size: 12px;
-    color: #cccccc;
+    font-size: 11px;
+    font-weight: 300;
+    color: #9ea7ad;
     background-color: #5c656f;
-    padding: 20px;
     height: 60px;
+    padding-top: 20px;
 }
