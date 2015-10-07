@@ -218,24 +218,94 @@ img.advantages-imgs {
 .insurance {
     background-color: #204d74;
     color: #fff;
-    padding: 20px;
+    padding: 0;
+}
+
+.insurance-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+.health-insurance {
+    background-color: #3a99d9;
+    height: 200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dental-insurance {
+    background-color: #9a5cb4;
+    height: 200px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.life-insurance {
+    background-color: #38cb74;
+    height: 100px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.auto-insurance {
+    background-color: #f0c330;
+    height: 100px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.medicare {
+    background-color: #e47e30;
+    height: 100px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.home-insurance {
+    background-color: #e54d42;
+    height: 100px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 .resources {
     background-color: #204d74;
     color: #fff;
-    padding: 20px;
+    padding: 0;
+}
+
+.bpo {
+    background-color: #4a6577;
+    height: 400px;
+}
+.tech {
+    background-color: #235c82;
+    height:400px;
 }
 /* ------ insurance section end ------ */
 
 .footer {
-    background-color: #999999;
+    background-color: #626b76;
     color: #fff;
     padding: 20px;
+    height: 200px;
 }
 
 .copyright {
-    background-color: #777777;
-    color: #fff;
+    font-size: 12px;
+    color: #cccccc;
+    background-color: #5c656f;
     padding: 20px;
+    height: 60px;
 }
