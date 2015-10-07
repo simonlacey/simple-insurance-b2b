@@ -1,0 +1,234 @@
+/* ------ Typography ------ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #475d69;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #1e96cf;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #1e96cf;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+p.hero-header {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-size: 86px;
+    color: #1e96cf;
+    font-weight: 400;
+    line-height: 60px;
+    margin-top: 40px;
+}
+
+p.hero-sub-header {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-size: 24px;
+    color: #475d69;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+p.hero-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #475d69;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+p.relationships {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+p.father-daughter-sub-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+p.father-daughter-header {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+p.father-daughter-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+p.advantages-body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+p.work-with-simple-header {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.work-with-simple-sub-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+/* ------ Layout ------ */
+
+/* ------ jumbotron ------ */
+.jumbotron {
+    position: relative;
+    background: #ccc url("../imgs/hero.jpg") center center;
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* ------ navbar ------ */
+.navbar {
+    background-color: #ffffff;
+    height: 80px;
+    margin-bottom: 0px;
+    border-top: 4px solid #1e96cf;
+}
+
+#custom-navbar {
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(36,73,87,0.4);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(36,73,87,0.4);
+    box-shadow: 0px 1px 1px 0px rgba(36,73,87,0.4);
+    z-index:999;
+}
+
+ul.navbar-nav {
+    color: #1e96cf;
+}
+
+.navbar-nav a {
+    margin-top: 15px;
+}
+
+.navbar-form {
+    margin-top: 25px;
+}
+
+.navbar-nav > li > a:link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e96cf;
+}
+
+.logo {
+    height: 50px;
+    margin-top: 15px;
+}
+
+/* ------ containers ------ */
+
+/* ------ value ------ */
+.value {
+    background-color: #f7f7f7;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+/* ------ father daughter ------ */
+.father-daughter {
+    position: relative;
+    z-index: 1;
+    background-color: #1e96cf;
+    color: #ffffff;
+    padding: 20px;
+    min-height: 460px;
+}
+
+img.father-daughter {
+    position: absolute;
+    z-index: 9999;
+    background-color: transparent;
+    margin-top: -80px;
+}
+
+/* ------ advantages ------ */
+.advantages {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+img.advantages-imgs {
+    position: relative;
+    padding: 0;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 180px;
+    left: 0;
+    right: 0;
+}
+
+.work-with-simple {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.insurance {
+    background-color: #204d74;
+    color: #fff;
+    padding: 20px;
+}
+
+.resources {
+    background-color: #39743e;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #999999;
+    color: #fff;
+    padding: 20px;
+}
+
+.copyright {
+    background-color: #777777;
+    color: #fff;
+    padding: 20px;
+}
