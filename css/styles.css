@@ -110,6 +110,8 @@ p.work-with-simple-sub-header {
 
 /* ------ Layout ------ */
 
+
+
 /* ------ jumbotron ------ */
 .jumbotron {
     position: relative;
@@ -212,6 +214,7 @@ img.advantages-imgs {
     padding: 20px;
 }
 
+/* ------ insurance section start ------ */
 .insurance {
     background-color: #204d74;
     color: #fff;
@@ -223,6 +226,7 @@ img.advantages-imgs {
     color: #fff;
     padding: 20px;
 }
+/* ------ insurance section end ------ */
 
 .footer {
     background-color: #999999;
