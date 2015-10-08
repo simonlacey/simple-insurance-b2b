@@ -50,6 +50,7 @@ p.footer-header {
     padding-bottom: 15px;
 }
 
+/* footer text underlines */
 .left-to-right {
     border-bottom: 2px solid #818991;
     width: 70%;
@@ -58,18 +59,49 @@ p.footer-header {
 p.hero-header {
     font-family: "proxima-nova-soft",sans-serif;
     font-size: 86px;
-    color: #1e96cf;
-    font-weight: 400;
-    line-height: 60px;
-    margin-top: 40px;
+    font-weight: 700;
+    color: #1ea9e6;
+    line-height: 56px;
+    margin-top: 24px;
+    margin-left: -10px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
 }
+
+/* 3d settings i like
+    text-shadow: 0 4px 0 #1c729f,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+*/
+
+/* gives text a 3d look - works great
+.text-3d {
+    color: #17638A;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #17638A,
+    0 3px 0 #17638A,
+    0 4px 0 #17638A,
+    0 5px 0 #17638A,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+} */
 
 p.hero-sub-header {
     font-family: "proxima-nova-soft",sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #475d69;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 24px;
+    margin-top: 16px;
 }
 
 p.hero-body {
@@ -77,8 +109,8 @@ p.hero-body {
     font-size: 16px;
     color: #475d69;
     font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     line-height: 28px;
 }
 
@@ -154,6 +186,11 @@ p.work-with-simple-sub-header {
     color: #ffffff;
     padding: 10px 40px;
     border: none;
+}
+
+.glyphicon.glyphicon-play, .glyphicon.glyphicon-triangle-right {
+    font-size: 14px;
+
 }
 
 /*** ----------------
@@ -237,17 +274,17 @@ li {
     margin-top: 20px;
 }
 
+.navbar .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
 /* - fixes not working yet
 
-*** change navbar hamburger icon colors ***
-
-.navbar-default .navbar-toogle .icon-bar {
-    color: #fff;
+*** hamburger icon hover state
+.navbar-default .navbar-toggle-hover-bg {
+    background-color: #1e96cf;
 }
 
-.navbar-default .navbar-toggle span.icon-bar {
-    color: #fff;
-}
 *** vertically align navbar icons using % instead of px
 .navbar-icons {
     top: 50%;
