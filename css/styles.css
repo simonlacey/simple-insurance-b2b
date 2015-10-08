@@ -31,6 +31,29 @@ h4 {
     line-height: 40px;
 }
 
+
+li {
+    list-style: none;
+}
+
+#explore-site-list-left {
+    margin-left: -50px;
+}
+
+p.footer-header {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.left-to-right {
+    border-bottom: 2px solid #818991;
+    width: 70%;
+}
+
 p.hero-header {
     font-family: "proxima-nova-soft",sans-serif;
     font-size: 86px;
@@ -108,8 +131,31 @@ p.work-with-simple-sub-header {
     font-weight: 300;
 }
 
+a {
+    text-decoration: underline;
+}
+
 /* ------ Layout ------ */
 
+.hero-btn {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #3cc85b;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+}
+
+.cta-btn {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fda738;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+}
 
 
 /* ------ jumbotron ------ */
@@ -298,14 +344,15 @@ img.advantages-imgs {
 .footer {
     background-color: #626b76;
     color: #fff;
-    padding: 20px;
-    height: 200px;
+    padding-top: 30px;
+    height: 300px;
 }
 
 .copyright {
-    font-size: 12px;
-    color: #cccccc;
+    font-size: 11px;
+    font-weight: 300;
+    color: #9ea7ad;
     background-color: #5c656f;
-    padding: 20px;
     height: 60px;
+    padding-top: 20px;
 }
