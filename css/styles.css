@@ -137,6 +137,7 @@ a {
 
 /* ------ Layout ------ */
 
+<<<<<<< HEAD
 .hero-btn {
     font-family: "proxima-nova-soft",sans-serif;
     font-weight: 400;
@@ -156,6 +157,8 @@ a {
     padding: 10px 30px;
     border: none;
 }
+=======
+>>>>>>> master
 
 
 /* ------ jumbotron ------ */
@@ -344,6 +347,7 @@ img.advantages-imgs {
 .footer {
     background-color: #626b76;
     color: #fff;
+<<<<<<< HEAD
     padding-top: 30px;
     height: 300px;
 }
@@ -355,4 +359,16 @@ img.advantages-imgs {
     background-color: #5c656f;
     height: 60px;
     padding-top: 20px;
+=======
+    padding: 20px;
+    height: 200px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #cccccc;
+    background-color: #5c656f;
+    padding: 20px;
+    height: 60px;
+>>>>>>> master
 }
