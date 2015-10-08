@@ -1,4 +1,8 @@
-/* ------ Typography ------ */
+/*** ----------------
+  Typography
+---------------- ***/
+
+/* fonts reset */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -12,6 +16,8 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "proxima-nova-soft",sans-serif;
     font-weight: 400;
 }
+
+/* fonts */
 
 h1 {
     font-size: 48px;
@@ -29,10 +35,6 @@ h4 {
     color: #1e96cf;
     font-weight: 400;
     line-height: 40px;
-}
-
-li {
-    list-style: none;
 }
 
 #explore-site-list-left {
@@ -130,7 +132,9 @@ p.work-with-simple-sub-header {
     font-weight: 300;
 }
 
-/* ------ Layout ------ */
+/*** ----------------
+  Layout
+---------------- ***/
 
 .hero-btn {
     font-family: "proxima-nova-soft",sans-serif;
@@ -152,8 +156,10 @@ p.work-with-simple-sub-header {
     border: none;
 }
 
+/*** ----------------
+  Jumbotron
+---------------- ***/
 
-/* ------ jumbotron ------ */
 .jumbotron {
     position: relative;
     background: #ccc url("../imgs/hero.jpg") center center;
@@ -166,7 +172,10 @@ p.work-with-simple-sub-header {
     margin-bottom: 0px;
 }
 
-/* ------ navbar ------ */
+/*** ----------------
+  Navbar
+---------------- ***/
+
 .navbar {
     background-color: #ffffff;
     height: 80px;
@@ -174,7 +183,15 @@ p.work-with-simple-sub-header {
     border-top: 4px solid #1e96cf;
 }
 
-/* ------ navbar colors ------ */
+li {
+    list-style: none;
+}
+
+#search-icon {
+    margin-left: 6px;
+}
+
+/* navbar colors */
 
 .navbar-nav a {
     margin-top: 15px;
@@ -208,12 +225,30 @@ p.work-with-simple-sub-header {
 .navbar-icons {
     position: relative;
     float: right;
-    margin-top: 25px;
-    font-size: 22px;
+    margin-top: 5%;
+    font-size: 20px;
     color: #1e96cf;
     margin-left: 10px;
 }
-/* - trying to vertically align icons instead of using px units
+
+.navbar-default .navbar-toggle {
+    background-color: #1e96cf;
+    border-color: #1e96cf;
+    margin-top: 20px;
+}
+
+/* - fixes not working yet
+
+*** change navbar hamburger icon colors ***
+
+.navbar-default .navbar-toogle .icon-bar {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle span.icon-bar {
+    color: #fff;
+}
+*** vertically align navbar icons using % instead of px
 .navbar-icons {
     top: 50%;
     left: 50%;
@@ -221,10 +256,9 @@ p.work-with-simple-sub-header {
     bottom: 0;
     transform: translate(-50%,-50%);
     font-size: 20px;
-}
-*/
+}*/
 
-/* ------ navbar shadow ------ */
+/* - navbar shadow - */
 
 #custom-navbar {
     -webkit-box-shadow: 0px 1px 1px 0px rgba(36,73,87,0.4);
@@ -233,16 +267,21 @@ p.work-with-simple-sub-header {
     z-index:999;
 }
 
-/* ------ images ------ */
+/*** ----------------
+  Images
+---------------- ***/
 
 .logo {
     height: 50px;
     margin-top: 15px;
 }
 
-/* ------ containers ------ */
+/*** ----------------
+  Containers
+---------------- ***/
 
-/* ------ value ------ */
+/* - value - */
+
 .value {
     background-color: #f7f7f7;
     padding-bottom: 20px;
@@ -365,7 +404,10 @@ img.advantages-imgs {
     background-color: #235c82;
     height:400px;
 }
-/* ------ insurance section end ------ */
+
+/*** ----------------
+  Footer
+---------------- ***/
 
 .footer {
     background-color: #626b76;
