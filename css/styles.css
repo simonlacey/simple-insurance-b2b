@@ -42,18 +42,29 @@ h4 {
 }
 
 p.footer-header {
-    font-family: "proxima-nova-soft",sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     color: #ffffff;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
 }
 
 /* footer text underlines */
-.left-to-right {
-    border-bottom: 2px solid #818991;
+
+.footer-header-underlines {
+    border-bottom: 2px solid #e54d42;
+    position: relative;
     width: 70%;
+}
+
+.footer-header-underlines:after {
+    position: absolute;
+    left: 18%;
+    right: 0;
+    bottom: -2px;
+    border-bottom: 2px solid #818991;
+    content: '';
 }
 
 p.hero-header {
@@ -472,7 +483,7 @@ img.advantages-imgs {
     background-color: #626b76;
     color: #fff;
     padding-top: 30px;
-    height: 300px;
+    height: 320px;
 }
 
 .copyright {
