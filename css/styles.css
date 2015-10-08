@@ -31,7 +31,6 @@ h4 {
     line-height: 40px;
 }
 
-
 li {
     list-style: none;
 }
@@ -131,10 +130,6 @@ p.work-with-simple-sub-header {
     font-weight: 300;
 }
 
-a {
-    text-decoration: underline;
-}
-
 /* ------ Layout ------ */
 
 .hero-btn {
@@ -143,7 +138,7 @@ a {
     font-size: 18px;
     background-color: #3cc85b;
     color: #ffffff;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border: none;
 }
 
@@ -153,7 +148,7 @@ a {
     font-size: 16px;
     background-color: #fda738;
     color: #ffffff;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border: none;
 }
 
@@ -179,6 +174,56 @@ a {
     border-top: 4px solid #1e96cf;
 }
 
+/* ------ navbar colors ------ */
+
+.navbar-nav a {
+    margin-top: 15px;
+    color: #1e96cf;
+}
+
+/* not using atm
+.navbar-form {
+    margin-top: 25px;
+} */
+
+.navbar-nav > li > a:link {
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+#nav-phone {
+     color: #475d69;
+ }
+
+.navbar .nav > li > a {
+    color:  #1e96cf;
+}
+
+.navbar .nav > li > a:hover {
+    color: #fda738;
+}
+
+.navbar-icons {
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    font-size: 22px;
+    color: #1e96cf;
+    margin-left: 10px;
+}
+/* - trying to vertically align icons instead of using px units
+.navbar-icons {
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+*/
+
 /* ------ navbar shadow ------ */
 
 #custom-navbar {
@@ -188,24 +233,7 @@ a {
     z-index:999;
 }
 
-ul.navbar-nav {
-    color: #1e96cf;
-}
-
-.navbar-nav a {
-    margin-top: 15px;
-    color: #1e96cf;
-}
-
-.navbar-form {
-    margin-top: 25px;
-}
-
-.navbar-nav > li > a:link {
-    font-weight: 400;
-    font-size: 16px;
-    color: #1e96cf;
-}
+/* ------ images ------ */
 
 .logo {
     height: 50px;
@@ -218,7 +246,7 @@ ul.navbar-nav {
 .value {
     background-color: #f7f7f7;
     padding-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 /* ------ father daughter ------ */
@@ -262,9 +290,7 @@ img.advantages-imgs {
 
 /* ------ insurance section start ------ */
 .insurance {
-    background-color: #204d74;
     color: #fff;
-    padding: 0;
 }
 
 .insurance-text {
