@@ -37,6 +37,32 @@ h4 {
     line-height: 40px;
 }
 
+/* insurance global styles - start */
+
+h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.insurance-sub {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.insurance-sub-header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.insurance-body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* insurance global styles - end */
+
 #explore-site-list-left {
     margin-left: -50px;
 }
@@ -399,26 +425,47 @@ img.advantages-imgs {
 
 /* ------ insurance section start ------ */
 .insurance {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+}
+
+.insurance-link {
     color: #fff;
 }
 
+.insurance-link:hover {
+    color: #e3b11c;
+}
 
 .insurance-text {
     position: absolute;
+    font-size: 18px;
     right: 0;
     bottom: 0;
-    transform: translate(-50%,-50%);
+    padding: 20px;
+    /* might have to update below for the animations to work right
     top: 50%;
     left: 50%;
-    font-size: 18px;
+    transform: translate(-50%,-50%); */
 }
 
 .health-insurance {
     background-color: #3a99d9;
-    height: 200px;
+    /* background: #ccc url("../imgs/12.jpg") center center; */
+    height: 280px;
     width: 100%;
     margin: 0;
     padding: 0;
+    position: relative;
+    background: #ccc url("../imgs/12.jpg") center center;
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .dental-insurance {
