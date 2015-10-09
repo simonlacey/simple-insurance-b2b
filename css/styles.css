@@ -452,10 +452,20 @@ img.advantages-imgs {
 
 .health-insurance {
     background-color: #3a99d9;
+    /* background: #ccc url("../imgs/12.jpg") center center; */
     height: 280px;
     width: 100%;
     margin: 0;
     padding: 0;
+    position: relative;
+    background: #ccc url("../imgs/12.jpg") center center;
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .dental-insurance {
