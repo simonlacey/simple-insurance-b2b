@@ -1,4 +1,8 @@
-/* ------ Typography ------ */
+/*** ----------------
+  Typography
+---------------- ***/
+
+/* fonts reset */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -9,9 +13,11 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "proxima-nova-soft",sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-weight: 400;
 }
+
+/* fonts */
 
 h1 {
     font-size: 48px;
@@ -31,44 +37,81 @@ h4 {
     line-height: 40px;
 }
 
-
-li {
-    list-style: none;
-}
-
 #explore-site-list-left {
     margin-left: -50px;
 }
 
 p.footer-header {
-    font-family: "proxima-nova-soft",sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     color: #ffffff;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
 }
 
-.left-to-right {
-    border-bottom: 2px solid #818991;
+/* footer text underlines */
+
+.footer-header-underlines {
+    border-bottom: 2px solid #e54d42;
+    position: relative;
     width: 70%;
+}
+
+.footer-header-underlines:after {
+    position: absolute;
+    left: 18%;
+    right: 0;
+    bottom: -2px;
+    border-bottom: 2px solid #818991;
+    content: '';
 }
 
 p.hero-header {
     font-family: "proxima-nova-soft",sans-serif;
     font-size: 86px;
-    color: #1e96cf;
-    font-weight: 400;
-    line-height: 60px;
-    margin-top: 40px;
+    font-weight: 700;
+    color: #1ea9e6;
+    line-height: 56px;
+    margin-top: 24px;
+    margin-left: -10px;
+    text-shadow: 4px 4px 10px rgba(255,255,255,0.55);
 }
+
+/* 3d settings i like
+    text-shadow: 0 4px 0 #1c729f,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+*/
+
+/* gives text a 3d look - works great
+.text-3d {
+    color: #17638A;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #17638A,
+    0 3px 0 #17638A,
+    0 4px 0 #17638A,
+    0 5px 0 #17638A,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+} */
 
 p.hero-sub-header {
     font-family: "proxima-nova-soft",sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #475d69;
-    font-weight: 300;
-    line-height: 24px;
+    font-weight: 400;
+    margin-top: 16px;
 }
 
 p.hero-body {
@@ -76,29 +119,31 @@ p.hero-body {
     font-size: 16px;
     color: #475d69;
     font-weight: 300;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     line-height: 28px;
 }
 
 p.relationships {
     font-size: 18px;
     font-weight: 400;
-    line-height: 28px;
-}
-
-p.father-daughter-sub-header {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    margin-top: 40px;
-    margin-bottom: 16px;
+    line-height: 14px;
+    margin-bottom: 20px;
 }
 
 p.father-daughter-header {
-    font-family: "proxima-nova-soft",sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 44px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+p.father-daughter-sub-header {
+    font-family: "proxima-nova-soft",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 16px;
 }
 
 p.father-daughter-body {
@@ -111,31 +156,39 @@ p.father-daughter-body {
 p.advantages-body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    margin-bottom: 30px;
     font-weight: 300;
+    margin-bottom: 30px;
     line-height: 24px;
 }
 
 p.work-with-simple-header {
-    font-family: "proxima-nova-soft",sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-size: 28px;
     font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 28px;
+    color: #1a6c94;
 }
 
 p.work-with-simple-sub-header {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    margin-bottom: 20px;
     font-weight: 300;
 }
 
-a {
+a#learn-more {
     text-decoration: underline;
+    font-weight: 400;
 }
 
-/* ------ Layout ------ */
+a#learn-more:hover {
+    color: #fda738;
+}
+
+/*** ----------------
+  Layout
+---------------- ***/
 
 .hero-btn {
     font-family: "proxima-nova-soft",sans-serif;
@@ -143,22 +196,40 @@ a {
     font-size: 18px;
     background-color: #3cc85b;
     color: #ffffff;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border: none;
+}
+
+.hero-btn:hover {
+    background-color: #1e96cf;
+    color: #ffffff;
 }
 
 .cta-btn {
     font-family: "proxima-nova-soft",sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #fda738;
     color: #ffffff;
-    padding: 10px 30px;
+    padding: 10px 60px;
     border: none;
+    margin: 10px 0;
 }
 
+.cta-btn:hover {
+    background-color: #3cc85b;
+    color: #ffffff;
+}
 
-/* ------ jumbotron ------ */
+.glyphicon.glyphicon-play, .glyphicon.glyphicon-triangle-right {
+    font-size: 14px;
+
+}
+
+/*** ----------------
+  Jumbotron
+---------------- ***/
+
 .jumbotron {
     position: relative;
     background: #ccc url("../imgs/hero.jpg") center center;
@@ -171,7 +242,10 @@ a {
     margin-bottom: 0px;
 }
 
-/* ------ navbar ------ */
+/*** ----------------
+  Navbar
+---------------- ***/
+
 .navbar {
     background-color: #ffffff;
     height: 80px;
@@ -179,7 +253,82 @@ a {
     border-top: 4px solid #1e96cf;
 }
 
-/* ------ navbar shadow ------ */
+li {
+    list-style: none;
+}
+
+#search-icon {
+    margin-left: 6px;
+}
+
+/* navbar colors */
+
+.navbar-nav a {
+    margin-top: 15px;
+    color: #1e96cf;
+}
+
+/* not using atm
+.navbar-form {
+    margin-top: 25px;
+} */
+
+.navbar-nav > li > a:link {
+    font-family: "proxima-nova-soft", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+#nav-phone {
+     color: #475d69;
+ }
+
+.navbar .nav > li > a {
+    color:  #1e96cf;
+}
+
+.navbar .nav > li > a:hover {
+    color: #fda738;
+}
+
+.navbar-icons {
+    position: relative;
+    float: right;
+    margin-top: 5%;
+    font-size: 20px;
+    color: #1e96cf;
+    margin-left: 10px;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #1e96cf;
+    border-color: #1e96cf;
+    margin-top: 20px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+/* - fixes not working yet
+
+*** hamburger icon hover state
+.navbar-default .navbar-toggle-hover-bg {
+    background-color: #1e96cf;
+}
+
+*** vertically align navbar icons using % instead of px
+.navbar-icons {
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}*/
+
+/* - navbar shadow - */
 
 #custom-navbar {
     -webkit-box-shadow: 0px 1px 1px 0px rgba(36,73,87,0.4);
@@ -188,37 +337,25 @@ a {
     z-index:999;
 }
 
-ul.navbar-nav {
-    color: #1e96cf;
-}
-
-.navbar-nav a {
-    margin-top: 15px;
-    color: #1e96cf;
-}
-
-.navbar-form {
-    margin-top: 25px;
-}
-
-.navbar-nav > li > a:link {
-    font-weight: 400;
-    font-size: 16px;
-    color: #1e96cf;
-}
+/*** ----------------
+  Images
+---------------- ***/
 
 .logo {
     height: 50px;
     margin-top: 15px;
 }
 
-/* ------ containers ------ */
+/*** ----------------
+  Containers
+---------------- ***/
 
-/* ------ value ------ */
+/* - value - */
+
 .value {
     background-color: #f7f7f7;
     padding-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 /* ------ father daughter ------ */
@@ -248,7 +385,7 @@ img.advantages-imgs {
     position: relative;
     padding: 0;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
     height: 180px;
     left: 0;
@@ -262,19 +399,18 @@ img.advantages-imgs {
 
 /* ------ insurance section start ------ */
 .insurance {
-    background-color: #204d74;
     color: #fff;
-    padding: 0;
 }
+
 
 .insurance-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
     right: 0;
     bottom: 0;
     transform: translate(-50%,-50%);
-    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    font-size: 18px;
 }
 
 .health-insurance {
@@ -339,13 +475,16 @@ img.advantages-imgs {
     background-color: #235c82;
     height:400px;
 }
-/* ------ insurance section end ------ */
+
+/*** ----------------
+  Footer
+---------------- ***/
 
 .footer {
     background-color: #626b76;
     color: #fff;
     padding-top: 30px;
-    height: 300px;
+    height: 320px;
 }
 
 .copyright {

@@ -9,15 +9,17 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
 
+    <!-- Adobe Typekit Code - for this website -->
     <script src="https://use.typekit.net/zdy6qle.js"></script>
-    <script>try {
-        Typekit.load({async: true});
-    } catch (e) {
-    }</script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Animation CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,6 +69,11 @@
                     </ul>
                 </li>
                 <li><a href="#">Contact Us</a></li>
+                <li><a href="#" id="nav-phone">Call : (866)555-1212</a></li>
+                <div class="navbar-icons"><!-- navbar icons -->
+                    <span id="mail-icon" class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    <span id="search-icon" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </div>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -83,7 +90,9 @@
                 you’ll have access to insurance agents nationwide that will provide you with competitive quotes from top
                 insurance companies. We offer health, life, and dental insurance. We want to be your go-to insurance
                 agency. We’ll build your trust by finding you the coverage you need at the price you can afford.</p>
-            <button type="button" class="btn btn-primary hero-btn">Start Saving Today</button>
+            <button type="button" class="btn btn-default btn-lg hero-btn">
+                Start Saving Today <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+            </button>
         </div>
     </div>
 </div>
@@ -92,9 +101,10 @@
     <div class="row">
         <div class="text-center">
             <h3>We value your business and trust. We work hard every day to earn it.</h3>
-
             <p class="relationships">We to build a long lasting relationship with you.</p>
-            <button type="button" class="btn btn-primary cta-btn">Start Saving Today</button>
+            <button type="button" class="btn btn-default btn-lg cta-btn">
+                Get In Touch <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+            </button>
         </div>
     </div>
 </div>
@@ -104,15 +114,15 @@
         <div class="container">
             <div class="col-md-6">
                 <p class="father-daughter-sub-header">Welcome to</p>
-
                 <p class="father-daughter-header">Simple Insurance</p>
-
                 <p class="father-daughter-body">We understand everyone has unique insurance needs and different
                     financial considerations when it comes time to buy health insurance. Our goal is to identify your
                     specific health insurance requirements and align them with a plan that delivers the coverage you
                     need at a price you can afford. Our agents have the knowledge and expertise needed to help you
                     select a quality healthcare plan that is tailored to your unique situation.</p>
-                <button type="button" class="btn btn-primary cta-btn">Learn More</button>
+                <button type="button" class="btn btn-default btn-lg cta-btn">
+                    Learn More <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                </button>
             </div>
             <div class="col-md-6"><img class="father-daughter" src="imgs/father-daughter.png" alt=""/></div>
         </div>
@@ -155,7 +165,29 @@
         <div class="col-md-12 text-center">
             <p class="work-with-simple-header">Would you like to work with Simple Insurance?</p>
 
-            <p class="work-with-simple-sub-header">We can help you find what you are searching for. <a href="url">Learn More</a>.</p>
+            <p class="work-with-simple-sub-header">We can help you find what you are searching for. <a id="learn-more" href="url">Learn More</a>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="grid health-insurance">
+                <figure class="effect-lily">
+                    <img src="imgs/12.jpg" alt="img12"/>
+                    <figcaption>
+                        <div>
+                            <h2><span>Health</span> Insurance</h2><br>
+                            <p><strong>Affordable plans that fit your life and budget</strong></p>
+
+                            <p>The flexibility to find the plan fits you without breaking the bank or changing your lifestyle. Health insurance is a necessity these days. But that doesn’t mean you have to give up everything for it. There are affordable options that let you live your life without sacrificing your lifestyle.<br><br>Simple Health Insurance.<br>Because Health Insurance doesn’t need to be complicated.</p>
+
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
     </div>
 </div>
@@ -165,7 +197,7 @@
 
         <div class="col-md-6 text-center insurance">
             <div class="row">
-                <div class="col-md-12 health-insurance">
+                <div class="col-md-12 health-insurance animated rubberBand">
                     <div class="insurance-text">Health<br>Insurance</div>
                 </div>
             </div>
@@ -209,7 +241,7 @@
     <div class="row">
         <div class="container">
             <div class="col-md-4">
-                <p class="footer-header left-to-right">Explore Our Site</p>
+                <p class="footer-header footer-header-underlines">Explore Our Site</p>
                 <div class="col-md-3" id="explore-site-list-left">
                     <ul>
                         <li>Health</li>
@@ -236,7 +268,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <p class="footer-header left-to-right">Contact Us</p>
+                <p class="footer-header footer-header-underlines">Contact Us</p>
                 <p><strong>Simple Insurance LLC</strong><br>
                     300 S. Park Road.<br>
                     Suite 140<br>
@@ -246,7 +278,7 @@
             </div>
 
             <div class="col-md-4">
-                <p class="footer-header left-to-right">Google Maps</p>
+                <p class="footer-header footer-header-underlines">Google Maps</p>
                 <img src="imgs/google-maps.png" alt=""/>
             </div>
 
@@ -267,6 +299,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </body>
 </html>
