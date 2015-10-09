@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a3902f3-432d-475d-acb3-f4f843982b57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3a3902f3-432d-475d-acb3-f4f843982b57" name="Default" comment="" />
     <ignored path="simple-insurance-b2b.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="animation-tut.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/animation-tut.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.668008">
-              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.9698189">
+              <caret line="96" column="2" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -481,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/animation-tut.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.668008">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.9698189">
+          <caret line="96" column="2" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
           <folding />
         </state>
       </provider>
