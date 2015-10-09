@@ -19,6 +19,7 @@
 
     <!-- Animation CSS File -->
     <link rel="stylesheet" type="text/css" href="css/animations.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -171,10 +172,32 @@
 
 <div class="container-fluid">
     <div class="row">
+        <div class="col-md-12">
+            <div class="grid health-insurance">
+                <figure class="effect-lily">
+                    <img src="imgs/12.jpg" alt="img12"/>
+                    <figcaption>
+                        <div>
+                            <h2><span>Health</span> Insurance</h2><br>
+                            <p><strong>Affordable plans that fit your life and budget</strong></p>
+
+                            <p>The flexibility to find the plan fits you without breaking the bank or changing your lifestyle. Health insurance is a necessity these days. But that doesn’t mean you have to give up everything for it. There are affordable options that let you live your life without sacrificing your lifestyle.<br><br>Simple Health Insurance.<br>Because Health Insurance doesn’t need to be complicated.</p>
+
+                        </div>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
 
         <div class="col-md-6 text-center insurance">
             <div class="row">
-                <div class="col-md-12 health-insurance">
+                <div class="col-md-12 health-insurance animated rubberBand">
                     <div class="insurance-text">Health<br>Insurance</div>
                 </div>
             </div>
@@ -276,6 +299,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </body>
 </html>

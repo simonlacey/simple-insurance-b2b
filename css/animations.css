@@ -1,3 +1,95 @@
+/* Styling */
+
+/*---------------*/
+/***** fonts and images *****/
+/*---------------*/
+
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+
+/* Common style */
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    background: #3085a3;/* background color insurance blocks */
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.55em;/* body text size */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid figure h2 {
+    word-spacing: .02em; /* space in between insurance type and insurance */
+    font-weight: 300; /* insurance */
+}
+
+.grid figure h2 span {
+    font-family: "proxima-nova-soft", sans-serif; /* insurance block header type of insurance */
+    font-weight: 700;
+}
+
+.grid figure h2,
+.grid figure p {
+    margin: 0;
+}
+
+.grid figure p {
+    letter-spacing: 1px;
+    font-size: 70.5%;
+}
+
+
 /* Individual effects */
 
 /*---------------*/
@@ -73,7 +165,39 @@ figure.effect-lily:hover p {
 /***** styling *****/
 /*---------------*/
 
-/*
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'codropsicons';
+    src:url('../fonts/codropsicons/codropsicons.eot');
+    src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+    url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+    url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+body {
+    background: #2f3238;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+a {
+    outline: none;
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #528cb3;
+}
+
 section {
     padding: 1em;
     text-align: center;
@@ -95,35 +219,9 @@ section {
 
 .content > h2:first-child {
     padding-top: 0em;
-}*/
-
-/* Demo links
-.codrops-demos {
-    clear: both;
-    padding: 1em 0 0;
-    text-align: center;
 }
 
-.content + .codrops-demos {
-    padding-top: 5em;
-}
-
-.codrops-demos a {
-    display: inline-block;
-    margin: 0 5px;
-    padding: 1em 1.5em;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.codrops-demos a:hover,
-.codrops-demos a:focus,
-.codrops-demos a.current-demo {
-    background: #3c414a;
-    color: #fff;
-}*/
-
-/* Related demos
+/* Related demos */
 .related {
     clear: both;
     padding: 6em 1em;
@@ -166,4 +264,4 @@ section {
     .codrops-icon span {
         display: none;
     }
-}*/
+}
