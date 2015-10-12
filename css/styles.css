@@ -2,7 +2,7 @@
   Typography
 ---------------- ***/
 
-/* fonts reset */
+/* global website fonts */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -13,7 +13,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Open Sans",sans-serif;
+    font-family: "proxima-nova-soft",sans-serif;
     font-weight: 400;
 }
 
@@ -23,26 +23,24 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
 h3 {
     font-size: 28px;
     color: #1e96cf;
-    font-weight: 400;
     line-height: 40px;
 }
 
 h4 {
     font-size: 24px;
     color: #1e96cf;
-    font-weight: 400;
     line-height: 40px;
 }
 
 /* insurance global styles - start */
-
-h2 {
-    font-size: 24px;
-    color: #ffffff;
-}
 
 .insurance-sub {
     font-size: 24px;
@@ -62,12 +60,12 @@ h2 {
 }
 
 /* insurance global styles - end */
-
+/* todo change id to class per css lint */
 #explore-site-list-left {
     margin-left: -50px;
 }
 
-p.footer-header {
+.footer-header {
     font-family: "Open Sans",sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -103,34 +101,6 @@ p.hero-header {
     margin-left: -10px;
     text-shadow: 4px 4px 10px rgba(255,255,255,0.55);
 }
-
-/* 3d settings i like
-    text-shadow: 0 4px 0 #1c729f,
-    0 6px 1px rgba(0,0,0,.1),
-    0 0 5px rgba(0,0,0,.1),
-    0 1px 3px rgba(0,0,0,.3),
-    0 3px 5px rgba(0,0,0,.2),
-    0 5px 10px rgba(0,0,0,.25),
-    0 10px 10px rgba(0,0,0,.2),
-    0 20px 20px rgba(0,0,0,.15);
-*/
-
-/* gives text a 3d look - works great
-.text-3d {
-    color: #17638A;
-    text-shadow: 0 1px 0 #ccc,
-    0 2px 0 #17638A,
-    0 3px 0 #17638A,
-    0 4px 0 #17638A,
-    0 5px 0 #17638A,
-    0 6px 1px rgba(0,0,0,.1),
-    0 0 5px rgba(0,0,0,.1),
-    0 1px 3px rgba(0,0,0,.3),
-    0 3px 5px rgba(0,0,0,.2),
-    0 5px 10px rgba(0,0,0,.25),
-    0 10px 10px rgba(0,0,0,.2),
-    0 20px 20px rgba(0,0,0,.15);
-} */
 
 p.hero-sub-header {
     font-family: "proxima-nova-soft",sans-serif;
@@ -423,14 +393,34 @@ img.advantages-imgs {
     padding: 20px;
 }
 
+/* cleancode INSURANCE SECTION needs optimized code */
+
 /* ------ insurance section start ------ */
 .insurance {
-    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 16px;
     color: #fff;
     text-align: left;
 }
 
+.insurance-title {
+    font-family: "proxima-nova-soft", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.insurance-sub {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
 .insurance-link {
+    text-transform: uppercase;
     color: #fff;
 }
 
@@ -438,22 +428,32 @@ img.advantages-imgs {
     color: #e3b11c;
 }
 
-.insurance-text {
-    position: absolute;
-    font-size: 18px;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
-    /* might have to update below for the animations to work right
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
+.insurance-body {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    padding-left: 20px;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.insurance-body:hover, .insurance-body:focus {
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -webkit-transform: translateY(-10px);
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 
 .health-insurance {
     background-color: #3a99d9;
     /* background: #ccc url("../imgs/12.jpg") center center; */
-    height: 280px;
+    height: 240px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -461,7 +461,7 @@ img.advantages-imgs {
     background: #ccc url("../imgs/12.jpg") center center;
     width: 100%;
     height: 100%;
-    min-height: 280px;
+    min-height: 260px;
     background-size: cover;
     overflow: hidden;
     margin-top: 0px;
@@ -542,3 +542,50 @@ img.advantages-imgs {
     height: 60px;
     padding-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** ----------------
+  todo Delete before deployment
+---------------- ***/
+
+/* 3d settings i like
+    text-shadow: 0 4px 0 #1c729f,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+*/
+
+/* gives text a 3d look - works great
+.text-3d {
+    color: #17638A;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #17638A,
+    0 3px 0 #17638A,
+    0 4px 0 #17638A,
+    0 5px 0 #17638A,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+} */
